@@ -1,0 +1,79 @@
+.corpo {
+    
+    background-image: url(https://thumbs.dreamstime.com/b/nuvens-sem-emenda-bonitas-do-teste-padr%C3%A3o-cont%C3%ADnuas-em-claro-fundo-azul-projeto-impresso-gr%C3%A1fico-repet%C3%ADvel-para-algum-produto-130553794.jpg);
+    background-size: cover;
+}
+.nomePrincipal {
+    background-color: rgba(0 , 0, 0, 20%);
+    text-align: center;
+    color: #fff;
+}
+.topico {
+    font-size: larger;
+    color: rgb(99, 90, 233);
+}
+.listaNO {
+    font-size: large;
+    position: relative;
+    left: -20px;
+    list-style: none;
+}
+.foto {
+    border-radius: 50%;
+    width: 400px;
+}
+.daFoto {
+    text-align: center;
+}
+.cimaFoto {
+    position: absolute;
+    left: 20px;
+}
+main{
+    font-size: x-large;
+}
+.Conteudo-central {
+    color: rgb(233, 247, 159);
+    margin: 0 0 0 10%;
+    position: relative;
+    width: 500px;
+    background-size: cover;
+    background-image: url(https://egestorab.saude.gov.br/resource/img/fundo_login.png);
+    text-align: center;
+    padding: 0 28% ;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+.links {
+    justify-content: space-between;
+    position: relative
+    display: flex;
+    height: 5px;
+}
+footer p {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.face {
+    margin-bottom: 50px;
+    margin-left: 35px;
+    position: relative;
+    width: 120px;
+    height: 50px;
+}
+.insta {
+    margin-bottom: 50px;
+    margin-left: 160px;
+    position: relative;
+    width: 120px;
+    height: 50px;
+}
+.linkedin {
+    margin-bottom: 50px;
+    margin-left: 160px;
+    position: relative;
+    width: 120px;
+    height: 50px;
+}
