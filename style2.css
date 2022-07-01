@@ -1,79 +1,118 @@
 .corpo {
-    
+
     background-image: url(https://thumbs.dreamstime.com/b/nuvens-sem-emenda-bonitas-do-teste-padr%C3%A3o-cont%C3%ADnuas-em-claro-fundo-azul-projeto-impresso-gr%C3%A1fico-repet%C3%ADvel-para-algum-produto-130553794.jpg);
     background-size: cover;
 }
+
 .nomePrincipal {
-    background-color: rgba(0 , 0, 0, 20%);
+    background-color: rgba(0, 0, 0, 20%);
     text-align: center;
     color: #fff;
 }
+
 .topico {
     font-size: larger;
     color: rgb(99, 90, 233);
 }
+
 .listaNO {
     font-size: large;
     position: relative;
     left: -20px;
     list-style: none;
+    padding: 0 0 0 20px;
+
+}
+* a {
+    text-decoration: none;
+    color: rgb(233, 247, 159);
+}
+
+a:hover {
+    color: rgb(99, 90, 233, 0.8);
+}
+
+button {
+    background-color: rgb(99, 90, 233, 0.8);
+    padding: 2px;
+    text-align: center;
+   
+}
+
+button:hover {
+    background-color: rgb(233, 247, 159);
+
 }
 .foto {
     border-radius: 50%;
     width: 400px;
+
 }
+
 .daFoto {
     text-align: center;
 }
+
 .cimaFoto {
     position: absolute;
     left: 20px;
 }
-main{
+
+main {
     font-size: x-large;
 }
+
 .Conteudo-central {
+    text-decoration: none;
     color: rgb(233, 247, 159);
     margin: 0 0 0 10%;
     position: relative;
-    width: 500px;
+    width: 700px;
     background-size: cover;
     background-image: url(https://egestorab.saude.gov.br/resource/img/fundo_login.png);
     text-align: center;
-    padding: 0 28% ;
-    border-width: 5px;
-    border-style: solid;
-    border-color: black;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
 }
+
 .links {
     justify-content: space-between;
-    position: relative
-    display: flex;
+    position: relative display: flex;
     height: 5px;
 }
+
 footer p {
     margin-top: 50px;
     margin-bottom: 20px;
     position: relative;
 }
+
 .face {
     margin-bottom: 50px;
     margin-left: 35px;
     position: relative;
-    width: 120px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
 }
+
 .insta {
     margin-bottom: 50px;
     margin-left: 160px;
     position: relative;
-    width: 120px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
 }
+
 .linkedin {
     margin-bottom: 50px;
     margin-left: 160px;
     position: relative;
-    width: 120px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
+}
+
+.sociais:hover {
+    width: 150PX;
+    height: 60PX;
 }
